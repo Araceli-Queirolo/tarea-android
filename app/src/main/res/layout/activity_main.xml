@@ -38,7 +38,8 @@
             android:text="@string/entrar"
             android:textAlignment="center"
             android:textColor="@color/white"
-            app:strokeColor="@color/white" />
+            app:strokeColor="@color/white"
+            app:strokeWidth="@dimen/material_emphasis_high_type" />
 
 
     </RelativeLayout>
