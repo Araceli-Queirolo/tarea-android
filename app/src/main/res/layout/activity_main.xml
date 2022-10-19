@@ -18,14 +18,15 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
+            android:id="@+id/textobienvenida"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/bienvenida"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="50sp"
+            android:textSize="@dimen/tamano_letra_bienvenida"
             android:textStyle="bold"
-            android:translationY="100sp" />
+            android:translationY="@dimen/traslacionY_bienvenida" />
 
         <Button
             android:id="@+id/button"
@@ -34,12 +35,17 @@
             android:layout_centerInParent="true"
             android:layout_gravity="center"
             android:backgroundTint="#00FFFFFF"
+            android:paddingLeft="@dimen/padding_entrar"
+            android:paddingTop="@dimen/padding_entrar_vertical"
+            android:paddingRight="@dimen/padding_entrar"
+            android:paddingBottom="@dimen/padding_entrar_vertical"
             android:shadowColor="@color/white"
             android:text="@string/entrar"
             android:textAlignment="center"
             android:textColor="@color/white"
+            android:textSize="@dimen/tamano_letra_entrar"
             app:strokeColor="@color/white"
-            app:strokeWidth="@dimen/material_emphasis_high_type" />
+            app:strokeWidth="@dimen/borde_boton_entrar" />
 
 
     </RelativeLayout>
