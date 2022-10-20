@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="borde_boton_entrar">2sp</dimen>
+    <dimen name="borde_boton_entrar">3sp</dimen>
     <dimen name="traslacionY_bienvenida">150sp</dimen>
-    <dimen name="tamano_letra_bienvenida">50sp</dimen>
-    <dimen name="tamano_letra_entrar">15sp</dimen>
-    <dimen name="padding_entrar">30dp</dimen>
-    <dimen name="padding_entrar_vertical">10dp</dimen>
+    <dimen name="tamano_letra_bienvenida">75sp</dimen>
+    <dimen name="tamano_letra_entrar">20sp</dimen>
+    <dimen name="padding_entrar">40dp</dimen>
+    <dimen name="padding_entrar_vertical">20dp</dimen>
 </resources>
