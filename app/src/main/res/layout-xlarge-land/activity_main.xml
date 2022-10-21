@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/marcianito"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textobienvenida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bienvenida"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tamano_letra_bienvenida"
+            android:textStyle="bold"
+            android:translationY="@dimen/traslacionY_bienvenida" />
+
+        <Button
+            android:id="@+id/boton_entrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:backgroundTint="#00FFFFFF"
+            android:paddingLeft="@dimen/padding_entrar"
+            android:paddingTop="@dimen/padding_entrar_vertical"
+            android:paddingRight="@dimen/padding_entrar"
+            android:paddingBottom="@dimen/padding_entrar_vertical"
+            android:text="@string/entrar"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tamano_letra_entrar"
+            app:strokeColor="@color/white"
+            app:strokeWidth="@dimen/borde_boton_entrar" />
+
+
+    </RelativeLayout>
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView"-->
+    <!--        android:layout_width="245dp"-->
+    <!--        android:layout_height="72dp"-->
+    <!--        android:text="@string/bienvenida"-->
+    <!--        android:textAppearance="@style/TextAppearance.AppCompat.Display1"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:textSize="50sp"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.5"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        tools:layout_editor_absoluteY="50dp" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
